@@ -8,8 +8,41 @@
 :root {
   --dark-blue: #272a31;
   --light-blue: #7894d3;
+  --medium-blue: #395084;
+  --off-white-accent: #cfd9ef;
 }
 
 body {
   background-color: var(--dark-blue);
+}
+
+h1 {
+  color: var(--off-white-accent);
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem;
+}
+
+.main-button {
+  font-family: 'Bebas Neue';
+  font-size: 1.5rem;
+  color: var(--dark-blue);
+  background-color: var(--light-blue);
+  padding: 1rem 2rem;
+  border-radius: 999px;
+  border: 1px solid var(--off-white-accent);
+  transition: 300ms;
+}
+
+.main-button:hover {
+  cursor: pointer;
+  color: var(--off-white-accent);
+  background-color: var(--dark-blue);
+  border: 1px solid var(--light-blue);
 }
