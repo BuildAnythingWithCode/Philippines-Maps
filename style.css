@@ -11,7 +11,18 @@
   --medium-blue: #395084;
   --off-white-accent: #cfd9ef;
 }
-
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
 body {
   background-color: var(--dark-blue);
 }
@@ -22,10 +33,6 @@ h1 {
 
 nav ul {
   list-style: none;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
   padding: 1rem;
 }
 

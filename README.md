@@ -27,7 +27,7 @@ The app will be geo-locked to users in the Philippines, as that is the sole loca
 5. JavaScript variables will keep a current running tally of the number of upvotes and downvotes on every route submission. A function will be used to add the total number of upvotes and downvotes, divide that number by the number of upvotes, and then multiply that number by 100 - this value will be the "Confidence Value" of that route submission.
 6. The Confidence Value will only show after 5 votes - otherwise, it will simply say "More votes needed - vote now".
 7. If a user upvotes a route submission, a popup alert will thank them for their contribution.
-8. If a user downvotes a route submission, a popup alert will ask them how the route can be improved, with the following radial buttons:
+8. If a user downvotes a route submission, a popup alert will ask them how the route can be improved, with the following radio buttons:
    8.a. The route is not accurate.
    8.b. The route is no longer in service.
    8.c. The route is longer than what is specified.
