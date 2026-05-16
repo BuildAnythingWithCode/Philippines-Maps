@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 0px solid red;
+}
+
+:root {
+  --dark-blue: #272a31;
+  --light-blue: #7894d3;
+}
+
+body {
+  background-color: var(--dark-blue);
+}
