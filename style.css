@@ -16,12 +16,18 @@
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  gap: 1rem;
 }
 .flex-row {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  gap: 1rem;
+}
+
+.vertical-spacing {
+  padding: 2rem 0;
 }
 
 body {
@@ -36,6 +42,29 @@ h5,
 h6,
 p,
 li {
+  color: var(--off-white-accent);
+}
+
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li {
+  font-family: 'Montserrat';
+}
+
+h1 {
+  font-family: 'Josefin Sans';
+}
+
+a {
+  color: var(--light-blue);
+  transition: 300ms;
+}
+
+a:hover {
   color: var(--off-white-accent);
 }
 
