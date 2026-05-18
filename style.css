@@ -14,7 +14,7 @@
 
 body {
   background-color: var(--dark-blue);
-  padding: 0 3rem;
+  margin: 0 3rem;
 }
 
 h1,
@@ -28,14 +28,13 @@ p {
   text-align: center;
 }
 
-h1 {
-  text-decoration: underline;
-}
-
 li {
   color: var(--off-white-accent);
 }
 
+h1 {
+  text-decoration: underline;
+}
 h3,
 h4,
 h5,
@@ -51,14 +50,22 @@ h2 {
   font-family: 'Josefin Sans';
 }
 
-nav ul {
+ul li {
   list-style: none;
-  padding: 1rem;
+  margin: 1rem;
   text-align: center;
 }
 
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1rem;
+}
+
 nav {
-  width: 90vw;
+  width: 100%;
 }
 
 a {
@@ -120,4 +127,15 @@ a:hover {
 footer {
   margin: 3rem;
   text-align: center;
+}
+
+@media (max-width: 700px) {
+  ul {
+    flex-direction: column;
+    gap: 0;
+    margin-top: 1rem;
+  }
+  ul li {
+    margin: 0.5rem;
+  }
 }
