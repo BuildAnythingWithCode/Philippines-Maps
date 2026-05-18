@@ -11,6 +11,12 @@
       href="https://fonts.googleapis.com/css2?family=Allura&family=Bebas+Neue&family=Doto:wght@100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+      crossorigin=""
+    />
   </head>
   <body class="flex-column">
     <nav>
@@ -27,8 +33,8 @@
       <p>
         This website was born out of frustration of lack of a clear, centralized
         Philippines public transportation system. It pulls various maps API's
-        with added-in functionality to allow Filipino users to contribute to a
-        shared userbase of public transpo route data.
+        with added-in functionality to allow users to contribute to a shared
+        userbase of public transpo route data.
       </p>
 
       <h2 class="margin-top">How It Works</h2>
@@ -53,9 +59,18 @@
         >
       </p>
     </section>
-    <div class="maps-section margin-top flex-column">
-      <p>Map data will soon load here...</p>
-    </div>
+    <h2 class="margin-top">Use The Map Below...</h2>
+    <div id="map" class="margin-top"></div>
+    <footer class="margin-top margin-bottom">
+      <a href="https://github.com/BuildAnythingWithCode/Philippines-Maps"
+        >Made with love @ BuildAnythingWithCode</a
+      >
+    </footer>
+    <script
+      src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+      integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+      crossorigin=""
+    ></script>
     <script src="script.js"></script>
   </body>
 </html>
