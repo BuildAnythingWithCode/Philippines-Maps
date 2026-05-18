@@ -75,8 +75,8 @@ a:hover {
   gap: 1rem;
 }
 
-.pad-top {
-  padding-top: 2rem;
+.margin-top {
+  margin-top: 2rem;
 }
 
 .main-button {
@@ -95,4 +95,10 @@ a:hover {
   color: var(--off-white-accent);
   background-color: var(--dark-blue);
   border: 1px solid var(--light-blue);
+}
+
+.maps-section {
+  background-color: black;
+  width: 80vw;
+  height: 50vh;
 }

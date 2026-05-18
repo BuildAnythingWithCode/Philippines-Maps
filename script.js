@@ -9,6 +9,6 @@ submitRouteBtn.addEventListener('click', function () {
       'Thank you for your interest in Philippines Maps! We hope to offer the ability to submit routes soon.',
     );
   } else {
-    alert('You must create an account in order to submit a route.');
+    alert('Account creation functionality will be added soon!');
   }
 });
