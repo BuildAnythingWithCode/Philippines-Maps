@@ -24,8 +24,8 @@ The app will be geo-locked to users in the Philippines, as that is the sole loca
 2. If the geolocation of the user is not based in the Philippines, then an error will be thrown.
 3. If the user is based in the Philippines, then they can access the app, where they will be prompted to create a free account using their email address and a password.
 4. After creating an account, users can submit their own knowledge of local public transportation routes (for jeepneys, tricycles, or busses), and upvote or downvote other user's public transportation route submissions.
-5. JavaScript variables will keep a current running tally of the number of upvotes and downvotes on every route submission. A function will be used to add the total number of upvotes and downvotes, divide that number by the number of upvotes, and then multiply that number by 100 - this value will be the "Confidence Value" of that route submission.
-6. The Confidence Value will only show after 5 votes - otherwise, it will simply say "More votes needed - vote now".
+5. JavaScript variables will keep a current running tally of the number of upvotes and downvotes on every route submission. A function will be used to add the total number of upvotes and downvotes, divide that number by the number of upvotes, and then multiply that number by 100 - this value will be the "Confidence Value" percentage of that route submission.
+6. The Confidence Value percentage will only show after 5 votes - otherwise, it will simply say "More votes needed - vote now".
 7. If a user upvotes a route submission, a popup alert will thank them for their contribution.
 8. If a user downvotes a route submission, a popup alert will ask them how the route can be improved, with the following radio buttons:
    8.a. The route is not accurate.
@@ -33,7 +33,7 @@ The app will be geo-locked to users in the Philippines, as that is the sole loca
    8.c. The route is longer than what is specified.
    8.d. The route is shorter than what is specified.
    8.e. Other (here, they can add their own notes in a text field).
-9. If they submit information for how the route can be improved, it will be sent as a notification to the user who created that submission.
+9. Any information submitted for how a route can be improved after clicking the downvote button will be publicly displayed for that route submission, so that other users can see that that route may not be accurate.
 
 It will be made up of HTML, CSS, and JavaScript, since those are the only languages that I know. I will point out any parts of the code that were written with the use of AI by "commenting out" notes for that section in the code - otherwise, all the code will be hand-written by me.
 
@@ -45,7 +45,8 @@ I will likely face the following problems and roadblocks associated with this pr
 2. Getting Filipinos to sign up for it with an email address (I may remove the need to create an account if this becomes apparent - the reasoning for making account-creation necessary before allowing users to submit, upvote, and downvote on route submissions is due to the following reasons:
    2.a. Preventing spam and bots;
    2.b. Ensuring that user behavior is legitimate and not "frivolously" made;
-   2.c. Coding the app itself (since I'm still just a hobbyist)).
+   2.c. Coding the app itself (since I'm still just a hobbyist));
+3. Coding the app itself (since I am still just a novice).
 
 I will re-name this repository & application from the lame & crappy "Philippines Maps" to something better at some point in the future - ChatGPT has already suggested the following flashier names:
 
