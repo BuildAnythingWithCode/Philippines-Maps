@@ -16,7 +16,7 @@ Hello! Thank you for visiting the ReadMe of my project. I have decided to make t
    6.a. Route information they have submitted;
    6.b. Route submissions they have upvoted;
    6.c. Route submissions they have downvoted;
-7. Retract a route submission, upvote, or downvote they have made in the past;
+7. Retract a route submission, upvote, or downvote they have made in the past.
 
 The app will be geo-locked to users in the Philippines, as that is the sole location that this app is based around. It will be free and open sourced, forever and always. The core functionality of the app is as follows:
 
