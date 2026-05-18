@@ -42,11 +42,10 @@ I will take inspiration from the amazing already-created "Sakay.PH" app, made by
 I will likely face the following problems and roadblocks associated with this project:
 
 1. Getting Filipinos to find out about this app;
-2. Getting Filipinos to sign up for it with an email address (I may remove the need to create an account if this becomes apparent - the reasoning for making account-creation necessary before allowing users to submit, upvote, and downvote on route submissions is due to the following reasons:
+2. Getting Filipinos to sign up for it with an email address (I may remove the need to create an account if this becomes apparent - the reasoning for making account-creation necessary before allowing users to submit, upvote, and downvote on route submissions is due to the following reasons):
    2.a. Preventing spam and bots;
-   2.b. Ensuring that user behavior is legitimate and not "frivolously" made;
-   2.c. Coding the app itself (since I'm still just a hobbyist));
-3. Coding the app itself (since I am still just a novice).
+   2.b. Ensuring that user submissions, upvotes and downvotes are legitimate and not made by mistake or in passing.
+3. Coding the app itself (since I am still just a hobbyist).
 
 I will re-name this repository & application from the lame & crappy "Philippines Maps" to something better at some point in the future - ChatGPT has already suggested the following flashier names:
 
