@@ -101,7 +101,7 @@ a:hover {
   margin-bottom: 2rem;
 }
 
-.main-button {
+.main-btn {
   font-family: 'Bebas Neue';
   font-size: 1.5rem;
   color: var(--dark-blue);
@@ -112,7 +112,7 @@ a:hover {
   transition: 300ms;
 }
 
-.main-button:hover {
+.main-btn:hover {
   cursor: pointer;
   color: var(--off-white-accent);
   background-color: var(--dark-blue);

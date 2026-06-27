@@ -1,16 +1,14 @@
 'use strict';
 
-const submitRouteBtn = document.querySelector('.main-button');
-let accountExists;
+const submitRouteBtn = document.querySelector('.main-btn');
+const createAccountBtn = document.querySelector('.create-account-btn');
 
 submitRouteBtn.addEventListener('click', function () {
-  if (accountExists) {
-    alert(
-      'Thank you for your interest in Philippines Maps! We hope to offer the ability to submit routes soon.',
-    );
-  } else {
-    alert('Account creation functionality will be added soon!');
-  }
+  alert('Route submission functionality will be added soon!');
+});
+
+createAccountBtn.addEventListener('click', function () {
+  alert('Account creation functionality will be added soon!');
 });
 
 var map = L.map('map').setView([51.505, -0.09], 13);
